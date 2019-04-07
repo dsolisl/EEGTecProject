@@ -1,0 +1,31 @@
+body {
+    padding: 20;
+    margin: 20;
+  }
+  
+  /* set map, body, and html to 100% of the screen size */
+  
+  body,
+  html {
+    height: 100%;
+  }
+
+  .title{
+    font-family: 'Montserrat';
+  }
+
+  .def{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .market_definition{
+    padding: 25px;
+  }
+  .map{
+    padding: 50px;
+  }
+  #map{
+    height: 95%;
+  }
