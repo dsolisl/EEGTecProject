@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App name</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_fourier.css') }}">
+</head>
+<body>
+        
+<div class="dropdown">.
+  <button onclick="createChart(myDropdown.text)" class="dropbtn">Select Channel</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#" id="channel_1" onclick="boton(this.id)">Channel 1</a>
+    <a href="#" id="channel_2" onclick="boton(this.id)">Channel 2</a>
+    <a href="#" id="channel_3" onclick="boton(this.id)">Channel 3</a>
+    <a href="#" id="channel_4" onclick="boton(this.id)">Channel 4</a>
+  </div>
+</div>
+        
+<div class="header">
+
+    <div class="preview"></div>
+</div>
+<div class="root">
+    <div class="chart"></div>
+    <div class="legend"></div>
+</div>
+<script src='https://d3js.org/d3.v5.min.js'></script>
+<script src={{ url_for('static', filename="js/main_fourier.js")}}></script>
+</body>
+</html>
