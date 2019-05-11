@@ -1,0 +1,22 @@
+.titulo{
+    font: bold;
+    font-style: "Great+Vibes";
+    font-size: 55px;
+    height: 100px;
+}
+
+.encabezado{
+    height:100px;
+
+}
+
+.shoe{
+    height:50px;
+}
+
+.monograma{
+    color:black;
+    font-family: "Tangerine", cursive;
+    font-weight: bolder;
+    font-size: 30px;
+}
